@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: burlywood;
+}
+.extrat{
+    border: 3px solid #333;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

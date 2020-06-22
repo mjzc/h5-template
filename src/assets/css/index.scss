@@ -1,0 +1,23 @@
+@import './main.css';
+
+$color: #fff;
+:root{
+    --border: 2px solid #000;
+}
+body {
+    .hello {
+        width: 100px;
+        margin: 20px auto;
+        color: $color;
+        display: flex;
+        transform: rotate(1deg);
+        border: var(--border);
+        box-sizing: border-box;
+    }
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    background: #000;
+}
